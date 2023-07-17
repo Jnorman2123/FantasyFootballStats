@@ -1,5 +1,5 @@
 export default function Layout({children}: {children: React.ReactNode}) {
-    <>
-        <main className='h-full'>{children}</main>
-    </>
+    return (
+        <main className="h-full">{children}</main>
+    )
 }
